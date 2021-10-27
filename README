@@ -1,0 +1,19 @@
+Visualize what's going on with your git repo.
+
+Seemed like it would be helpful if you're giving a presentation on git or
+something.
+
+Run the following to set everything up:
+
+    $ ./setup.sh
+
+Then use the following to start monitoring:
+
+    $ ./watcher.py
+
+Send a SIGINT to watcher.py to trigger a manual redraw. Send another SIGINT
+within 0.2 seconds of the first to exit the program completely.
+
+Code is under BSD 2-clause license. Feel free to use it, but I would really
+appreciate if you linked to this repo or something if you use this in a
+presentation.
