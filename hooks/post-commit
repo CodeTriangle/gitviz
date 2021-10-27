@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+from socket import socket
+
+s = socket()
+
+s.connect(('localhost', 50550))
+s.close()
